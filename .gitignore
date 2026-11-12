@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Data: download from Kaggle instead of uploading it
+*.csv
+*.db
+
+# Mac clutter and local secrets
+.DS_Store
+.streamlit/secrets.toml
